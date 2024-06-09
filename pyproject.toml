@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "fastapi-test"
+version = "0.1.0"
+description = ""
+authors = ["bondroid1322 <bondroid3.22@icloud.com>"]
+readme = "README.md"
+packages = [{include = "fastapi_test"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.111.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
